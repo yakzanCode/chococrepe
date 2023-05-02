@@ -206,6 +206,10 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+
+    .navbar-light.nav-sticky{
+        height: 90px;
+    }
 }
 
 
