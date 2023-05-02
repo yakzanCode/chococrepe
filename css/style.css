@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #757575;
-    background: #ffffff;
+    background: white;
     font-fmily: 'open sans', sans-serif;
 }
 
@@ -27,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #000000;
+    color: black;
     outline: none;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ a:focus {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
+    color: white;
     background: black;
     border: 2px solid black;
     border-radius: 5px;
@@ -76,12 +76,12 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #ffffff;
+    color: white;
     padding-top: 10px;
 }
 
 .back-to-top:hover {
-    background: #000000;
+    background: black;
 }
 
 
@@ -115,7 +115,7 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    color: #000000;
+    color: black;
 }
 
 .navbar .navbar-brand:hover {
@@ -149,7 +149,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #000000 !important;
+        background: black !important;
     }
     
     /* .navbar .navbar-brand {
@@ -164,14 +164,14 @@ a:focus {
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
         font-family: 'Nunito', sans-serif;
-        color: #ffffff;
+        color: white;
         font-size: 18px;
         font-weight: 600;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #ffffff;
+        color: white;
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
@@ -188,7 +188,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #000000 !important;
+        background: black !important;
     }
     
     /* .navbar .navbar-brand {
@@ -221,7 +221,7 @@ a:focus {
     width: 100%;
     height: 100vh;
     min-height: 400px;
-    background: #ffffff;
+    background: white;
 }
 
 .carousel .container-fluid {
@@ -276,7 +276,7 @@ a:focus {
 
 .carousel .carousel-text h1 {
     text-align: center;
-    color: #ffffff;
+    color: white;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -287,7 +287,7 @@ a:focus {
 }
 
 .carousel .carousel-text p {
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: 20px;
     margin-bottom: 35px;
@@ -295,12 +295,12 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
     margin-left: 10px;
-    background: #000000;
-    border-color: #000000;
+    background: black;
+    border-color: black;
 }
 
 .carousel .carousel-btn .btn:last-child:hover {
-    color: #000000;
+    color: black;
     background: transparent;
 }
 
@@ -388,11 +388,11 @@ a:focus {
     padding: 0 12px;
     font-size: 20px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: white;
 }
 
 .page-header a:hover {
-    color: #ffffff;
+    color: white;
 }
 
 .page-header a::after {
@@ -430,7 +430,7 @@ a:focus {
 }
 
 .section-header p {
-    color: #000000;
+    color: black;
     margin-bottom: 5px;
     position: relative;
     font-size: 20px;
@@ -485,7 +485,7 @@ a:focus {
     margin-bottom: 30px;
     padding: 50px 30px 30px;
     text-align: center;
-    background: #ffffff;
+    background: white;
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
     transition: .3s;
@@ -506,7 +506,7 @@ a:focus {
 }
 
 .food .food-item:hover i {
-    color: #000000;
+    color: black;
 }
 
 .food .food-item i::after {
@@ -524,7 +524,7 @@ a:focus {
 }
 
 .food .food-item:hover i::after {
-    border: 3px dotted #000000;
+    border: 3px dotted black;
     border-right: transparent;
     border-bottom: transparent;
 }
@@ -553,7 +553,7 @@ a:focus {
 .food .food-item a:hover::after {
     width: 100%;
     left: 0;
-    background: #000000;
+    background: black;
 }
 
 
@@ -642,7 +642,7 @@ a:focus {
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 32px solid #ffffff;
+    border-left: 32px solid white;
     border-top: 22px solid transparent;
     border-bottom: 22px solid transparent;
 }
@@ -682,8 +682,8 @@ a:focus {
     z-index: 999;
     font-size: 30px;
     font-weight: normal;
-    color: #ffffff;
-    background: #000000;
+    color: white;
+    background: black;
     opacity: 1;
 }
 
@@ -760,11 +760,11 @@ a:focus {
 .feature .feature-item i {
     position: relative;
     display: block;
-    color: #000000;
+    color: black;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 15px;
-    background-image: linear-gradient(#000000, black);
+    background-image: linear-gradient(black, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -805,7 +805,7 @@ a:focus {
 }
 
 .menu .menu-tab .nav.nav-pills .nav-link {
-    color: #ffffff;
+    color: white;
     background: black;
     border: 2px solid black;
     border-radius: 5px;
@@ -813,9 +813,9 @@ a:focus {
 }
 
 .menu .menu-tab .nav.nav-pills .nav-link:hover {
-    color: #ffffff;
-    background: #000000c8;
-    border-color: #00000000;
+    color: white;
+    background: blackc8;
+    border-color: black00;
 }
 
 .menu .menu-tab .nav.nav-pills .nav-link.active {
@@ -824,7 +824,7 @@ a:focus {
 }
 
 .menu .menu-tab .nav.nav-pills .nav-link.active:hover {
-    color: #ffffff;
+    color: white;
     background: black;
     border-color: black;
 }
@@ -881,7 +881,7 @@ a:focus {
     display: inline-block;
     float: left;
     padding-right: 5px;
-    background: #ffffff;
+    background: white;
 }
 
 .menu .menu-text h3 strong {
@@ -889,7 +889,7 @@ a:focus {
     float: right;
     padding-left: 5px;
     color: black;
-    background: #ffffff;
+    background: white;
 }
 
 .menu .menu-text p {
@@ -951,7 +951,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #ffffff;
+    background: white;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, .08);
     transition: .3s;
@@ -1009,7 +1009,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #000000;
+    background: black;
 }
 
 
@@ -1044,7 +1044,7 @@ a:focus {
     top: -60px;
     left: 30px;
     padding: 25px 30px 30px 30px;
-    background: #ffffff;
+    background: white;
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
     border-radius: 15px;
     z-index: 2;
@@ -1099,7 +1099,7 @@ a:focus {
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: #ffffff;
+    color: white;
     background: black;
 }
 
@@ -1152,7 +1152,7 @@ a:focus {
 }
 
 .single .single-tags a:hover {
-    color: #ffffff;
+    color: white;
     background: black;
     border-color: black;
 }
@@ -1274,7 +1274,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: white;
     background: black;
     font-size: 16px;
     transition: .3s;
@@ -1282,8 +1282,8 @@ a:focus {
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: #ffffff;
-    background: #000000;
+    color: white;
+    background: black;
 }
 
 .single .single-comment {
@@ -1441,7 +1441,7 @@ a:focus {
 }
 
 .sidebar .search-widget .btn:hover {
-    color: #000000;
+    color: black;
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -1453,15 +1453,15 @@ a:focus {
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
-    color: #ffffff;
+    color: white;
     background: black;
     border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: #ffffff;
-    background: #000000;
+    color: white;
+    background: black;
 }
 
 .sidebar .tab-post .tab-content {
@@ -1527,7 +1527,7 @@ a:focus {
 }
 
 .single .tag-widget a:hover {
-    color: #ffffff;
+    color: white;
     background: black;
     border-color: black;
 }
@@ -1585,7 +1585,7 @@ a:focus {
 
 .contact .contact-icon a i {
     font-size: 18px;
-    color: #ffffff;
+    color: white;
 }
 
 .contact .contact-text {
@@ -1600,7 +1600,7 @@ a:focus {
 .contact .contact-text h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #000000;
+    color: black;
 }
 
 .contact .contact-text p {
@@ -1616,7 +1616,7 @@ a:focus {
 }
 
 .contact .contact-social a:hover {
-    color: #000000;
+    color: black;
 }
 
 .contact .contact-form iframe {
@@ -1665,7 +1665,7 @@ a:focus {
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
-    color: #000000;
+    color: black;
 }
 
 .footer .footer-contact h2,
@@ -1688,13 +1688,13 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #000000;
+    background: black;
 }
 
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #000000;
+    color: black;
     transition: .3s;
 }
 
@@ -1777,7 +1777,7 @@ a:focus {
     width: 100%;
     padding: 30px 0;
     text-align: center;
-    background: #ffffff;
+    background: white;
 }
 
 .footer .copyright p {
@@ -1787,9 +1787,9 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: rgb(255, 0, 0);
+    color: black;
 }
 
 .footer .copyright p a:hover {
-    color: #000000;
+    color: black;
 }
